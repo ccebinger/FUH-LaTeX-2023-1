@@ -21,26 +21,26 @@ vorzugsweise in ein privates Repo.
 
 ## Der Kurs
 
-Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir BigBlueButton, der Link wird vorab per E-Mail versandt.
+Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir BigBlueButton von senfcall.de, der Link wird vorab per E-Mail versandt.
 
 * **Tag 1**: 22.04.2023
 * **Tag 2**: 29.04.2023
-* **Tag 3**: 06.05.2023
-* **Tag 4**: und mit vermutlich einer Woche Pause dazwischen am 20.05.2023
+* **Tag 3**: ~~06.05.2023~~ an diesem Tag kann ich leider nicht tagsüber, wir werden daher a) die Zeit auf die anderen Termine verteilen oder b) am ersten Tag einen Ausweichtermin festlegen oder c) es auf den Abend verlegen.
+* **Tag 4**: 20.05.2023
 
 Jeweils grundsätzlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15:00 Uhr, in Summe also 16 Stunden.
 
 ## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
-* TeX Live 2022 herunterladen und installieren von tug.org/texlive. Eine Anleitung habe ich unter https://www.youtube.com/watch?v=k9KhuZz7k-Q veröffentlicht.
+* TeX Live 2023 herunterladen und installieren von tug.org/texlive. Eine Anleitung habe ich unter https://www.youtube.com/watch?v=k9KhuZz7k-Q veröffentlicht.
 * Wenn ihr unter Linux arbeitet: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Das TeX Live in den Distributionen ist oft nicht aktuell. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
-* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor, den ich gern benutze. TeX Studio und Visual Studio Code (mit der ``LaTeX Workshop`` Erweiterung von James Yu) kann ich ebenfalls sehr empfehlen.
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten einfachen Editor, den ich gern benutze. TeX Studio und Visual Studio Code (mit der ``LaTeX Workshop`` Erweiterung von James Yu) kann ich ebenfalls sehr empfehlen.
 * Grundkenntnisse von Git bzw. Github sind nicht verkehrt, da alle Dateien im Github liegen.
 
 ## Kursinhalte
 
-Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen und Teilnehmer, mit dem folgenden Ablauf plane ich:
+Die Kursinhalte sind flexibel und orientieren sich am Bedarf und Tempo der Teilnehmerinnen und Teilnehmer, mit dem folgenden Ablauf plane ich:
 
 ### Tag 1 - Grundlagen
 
