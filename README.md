@@ -8,7 +8,7 @@ Die Materialien können frei von jedermann genutzt und verändert werden, entspr
 
 git installieren und dann auf der Kommandozeile
 
-git clone https://github.com/UweZiegenhagen/FUH-LaTeX-2022-1.git
+git clone https://github.com/UweZiegenhagen/FUH-LaTeX-2023-1.git
 
 Updates holt man wie folgt, lokal geänderte Dateien werden dabei überschrieben!
 
@@ -33,7 +33,7 @@ Jeweils grundsätzlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15:00 Uhr, 
 ## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
-* TeX Live 2023 herunterladen und installieren von tug.org/texlive. Eine Anleitung habe ich unter https://www.youtube.com/watch?v=k9KhuZz7k-Q veröffentlicht.
+* TeX Live 2023 herunterladen und installieren von tug.org/texlive. Eine Anleitung (für TeX Live 2022, hat sich aber nichts geändert) habe ich unter https://www.youtube.com/watch?v=k9KhuZz7k-Q veröffentlicht.
 * Wenn ihr unter Linux arbeitet: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Das TeX Live in den Distributionen ist oft nicht aktuell. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
 * Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten einfachen Editor, den ich gern benutze. TeX Studio und Visual Studio Code (mit der ``LaTeX Workshop`` Erweiterung von James Yu) kann ich ebenfalls sehr empfehlen.
 * Grundkenntnisse von Git bzw. Github sind nicht verkehrt, da alle Dateien im Github liegen.
