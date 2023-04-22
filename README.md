@@ -24,9 +24,10 @@ vorzugsweise in ein privates Repo.
 Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir BigBlueButton von senfcall.de, der Link wird vorab per E-Mail versandt.
 
 * **Tag 1**: 22.04.2023
-* **Tag 2**: 29.04.2023
+* **Tag 2**: 29.04.2023, Beginn 9:00 Uhr
 * **Tag 3**: ~~06.05.2023~~ an diesem Tag kann ich leider nicht tagsüber, wir werden daher a) die Zeit auf die anderen Termine verteilen oder b) am ersten Tag einen Ausweichtermin festlegen
-* **Tag 4**: 20.05.2023
+* **Tag 4**: ~~20.05.2023~~ 27.05.2023, Beginn: 09:00 Uhr
+* **Tag 5**: Ein 2-Stunden-Slot, Zeit wird noch bestimmt.
 
 Jeweils grundsätzlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15:00 Uhr, in Summe also 16 Stunden.
 
