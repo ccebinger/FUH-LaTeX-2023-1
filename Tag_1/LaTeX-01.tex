@@ -34,6 +34,8 @@
     urlcolor=magenta                        % color of external links
 }
 
+\renewcommand{\emph}[1]{\textbf{#1}}
+\newcommand{\betonen}[1]{\textbf\textit{{#1}}}
 
 \begin{document}
 \maketitle
@@ -49,7 +51,7 @@
 
 Siehe Abschnitt \ref{sec:einleitung} auf Seite \pageref{sec:einleitung}.
 
-Ich bin ein Text, der in der Standardschriftgröße gesetzt wird. Ich bin ein Text, der in der Standardschriftgröße gesetzt wird.
+Ich bin \emph{ein Text}, der in der \betonen{Standardschriftgröße} gesetzt wird. Ich bin ein Text, der in der Standardschriftgröße gesetzt wird.
 
 Ich bin ein Text, der in der \textbf{Standardschriftgröße} gesetzt wird. \person{Albert Einstein} war ein \textit{bedeutender} \textsl{bedeutender}  Physiker des \textit{\textbf{zwanzigsten}} Jahrhunderts.
 
