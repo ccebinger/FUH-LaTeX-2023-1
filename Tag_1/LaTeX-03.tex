@@ -3,7 +3,8 @@
 \usepackage{babel}
 \usepackage{blindtext}
 \usepackage{graphicx}
-\usepackage[]{xcolor}
+\usepackage{xcolor}
+\usepackage{booktabs}
 
 \usepackage{colortbl}
 
@@ -97,11 +98,11 @@ links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellen
 
 \vspace*{2cm}
 
-\begin{tabular}{lcrp{6cm}} \hline
-\textbf{1. Spalte} & \textbf{2. Spalte} & \textbf{3. Spalte} & \textbf{4. Spalte} \\ \hline
-links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
-links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
-links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+\begin{tabular}{lcrp{6cm}} \toprule[3pt] \addlinespace[5mm]
+\textbf{1. Spalte} & \textbf{2. Spalte} & \textbf{3. Spalte} & \textbf{4. Spalte} \\ \addlinespace[5mm] \midrule 
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \midrule[1pt]
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ 
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \bottomrule[1.5pt]
 \end{tabular}
 
 % Tabellenspalten in Standard-LaTeX
