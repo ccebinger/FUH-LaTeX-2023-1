@@ -1,0 +1,22 @@
+% https://de.comp.text.tex.narkive.com/dsCb9N3m/buchhalternase
+\documentclass{scrartcl}
+\usepackage{pst-all}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\begin{document}
+Hier ein T-Konto:
+\begin{table}[h]
+\centering
+\begin{tabular}{lr|lr}
+Soll&&Haben&\\
+\hline
+Test1&100&Test2&200\\
+Test3&300&\pnode{Rechts1}&\pnode{Rechts2}\\
+\pnode{Links1}&\pnode{Links2}&&\\
+\ncdiag[angleA=0,angleB=180,arm=0.7cm]{Links1}{Rechts2}
+\end{tabular}
+\caption{T-Konto}
+\label{tab:TKonto}
+\end{table}
+\end{document}
