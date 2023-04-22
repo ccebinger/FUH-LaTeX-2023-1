@@ -3,6 +3,9 @@
 \usepackage{babel}
 \usepackage{blindtext}
 \usepackage{graphicx}
+\usepackage[]{xcolor}
+
+\usepackage{colortbl}
 
 \author{Uwe Ziegenhagen}
 \title{\LaTeX\ und Bilder}
@@ -82,6 +85,36 @@ Siehe Abbildung \ref{fig:katze} auf Seite \pageref{fig:katze}
 
 {\bfseries was fettes}
 
+
+\section{Tabellen und \LaTeX}
+
+\begin{tabular}{|l|c|r|p{6cm}|} \hline
+1. Spalte & 2. Spalte & 3. Spalte & 4. Spalte \\ \hline
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+\end{tabular}
+
+\vspace*{2cm}
+
+\begin{tabular}{lcrp{6cm}} \hline
+\textbf{1. Spalte} & \textbf{2. Spalte} & \textbf{3. Spalte} & \textbf{4. Spalte} \\ \hline
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+links & sehr zentriert&   rechts  & Ich bin ein längerer Satz in einer Tabellenspalte  \\ \hline
+\end{tabular}
+
+% Tabellenspalten in Standard-LaTeX
+% l = linksbündig
+% r = rechtsbündig
+%c für zentriert
+% p{Maß} Für linksbündige Absatzspalte
+
+% Colortbl Beispiel
+ \begin{tabular}{l!{\color{green}\vrule}l}
+    \arrayrulecolor{red}\hline
+    test & test\\\arrayrulecolor{blue}\hline
+  \end{tabular}
 
 
 \end{document}
