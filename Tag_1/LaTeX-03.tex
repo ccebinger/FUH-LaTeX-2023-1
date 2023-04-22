@@ -1,20 +1,69 @@
-\documentclass[12pt,parskip=half]{scrartcl}
+\documentclass[12pt,ngerman,parskip=half]{scrartcl}
 
+\usepackage{babel}
 \usepackage{blindtext}
+\usepackage{graphicx}
 
 \author{Uwe Ziegenhagen}
 \title{\LaTeX\ und Bilder}
 
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,                     % show bookmarks bar
+    unicode=false,                      % non - Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,                        % show Acrobat’s toolbar
+    pdfmenubar=true,                        % show Acrobat’s menu
+    pdffitwindow=false,                 % window fit to page when opened
+    pdfstartview={FitH},                    % fits the width of the page to the window
+    pdftitle={My title},                        % title
+    pdfauthor={Author},                 % author
+    pdfsubject={Subject},                   % subject of the document
+    pdfcreator={Creator},                   % creator of the document
+    pdfproducer={Producer},             % producer of the document
+    pdfkeywords={keyword1, key2, key3},   % list of keywords
+    pdfnewwindow=true,                  % links in new window
+    colorlinks=true,                        % false: boxed links; true: colored links
+    linkcolor=blue,                          % color of internal links
+    filecolor=cyan,                     % color of file links
+    citecolor=green,                     % color of file links
+    urlcolor=magenta                        % color of external links
+}
+
 \begin{document}
 \maketitle
 
+\tableofcontents
+
+\listoffigures
+
+
 \section{Einleitung}
 
+Siehe Abbildung \ref{fig:katze} auf Seite \pageref{fig:katze}
+
+\blindtext[2]
+
+%fixe Breite
+\includegraphics[width=12cm]{Bilder/Katze1}
+
+\blindtext[2]
+
+\section{Hauptteil}\label{sec:hauptteil}
+
 \blindtext[2]
 
 
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Bilder/Katze}
+\caption{Meine Miezekatze}\label{fig:katze}
+\end{center}
+\end{figure}
+
+
 \blindtext[2]
+
 
 \end{document}
 
-
+Bildformate = JPEG, PNG, PDF
