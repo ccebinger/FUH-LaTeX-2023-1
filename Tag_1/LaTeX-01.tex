@@ -1,12 +1,39 @@
-\documentclass[12pt,ngerman]{scrartcl}
+\documentclass[12pt,ngerman, parskip=half]{scrartcl}
 
 \usepackage{babel}
 \usepackage{blindtext}
+\usepackage{microtype}
 
 \author{Uwe Ziegenhagen}
 \title{Mein erstes LaTeX-Dokument}
 \date{Entenhausen, den \today}
 % \date{} für kein Datum
+
+\usepackage{xcolor}
+\newcommand{\person}[1]{\textcolor{magenta}{\textsc{#1}}}
+
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,                     % show bookmarks bar
+    unicode=false,                      % non - Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,                        % show Acrobat’s toolbar
+    pdfmenubar=true,                        % show Acrobat’s menu
+    pdffitwindow=false,                 % window fit to page when opened
+    pdfstartview={FitH},                    % fits the width of the page to the window
+    pdftitle={My title},                        % title
+    pdfauthor={Author},                 % author
+    pdfsubject={Subject},                   % subject of the document
+    pdfcreator={Creator},                   % creator of the document
+    pdfproducer={Producer},             % producer of the document
+    pdfkeywords={keyword1, key2, key3},   % list of keywords
+    pdfnewwindow=true,                  % links in new window
+    colorlinks=true,                        % false: boxed links; true: colored links
+    linkcolor=blue,                          % color of internal links
+    filecolor=cyan,                     % color of file links
+    citecolor=green,                     % color of file links
+    urlcolor=magenta                        % color of external links
+}
+
 
 \begin{document}
 \maketitle
@@ -15,26 +42,38 @@
 
 \section{Einleitung}
 
+\section*{Hallo} % Mit Sternchen => taucht nicht im Inhaltsverzeichnis auf
+
 \blindtext
 
-\section{Literaturüberblick}
+Ich bin ein Text, der in der Standardschriftgröße gesetzt wird. Ich bin ein Text, der in der Standardschriftgröße gesetzt wird.
+
+Ich bin ein Text, der in der \textbf{Standardschriftgröße} gesetzt wird. \person{Albert Einstein} war ein \textit{bedeutender} \textsl{bedeutender}  Physiker des \textit{\textbf{zwanzigsten}} Jahrhunderts.
+
+\textcolor{red}{Uwe Ziegenhagen}
+
+\person{Stephen Hawking}  war ein \emph{cooler} Typ.
+
+\section[Literatur]{Literaturüberblick über wichtige Quellen des ausgehenden Jahrhunderts in diversen Teilen der Welt}
+
+
 \subsection{Literatur vor 1918}
 \subsubsection{Europa}
 
-\blindtext[30]
+\blindtext[2]
 
 \subsubsection{Asien}
 
-\blindtext[20]
+\blindtext[2]
 
 
 \section{Analyse}
 
-\blindtext[10]
+\blindtext[2]
 
 \section{Fazit}
 
-\blindtext[10]
+\blindtext[2]
 
 
 
