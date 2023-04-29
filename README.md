@@ -27,7 +27,7 @@ Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir Big
 * **Tag 2**: 29.04.2023, Beginn 9:00 Uhr
 * **Tag 3**: ~~06.05.2023~~ an diesem Tag kann ich leider nicht tagsüber, wir werden daher a) die Zeit auf die anderen Termine verteilen oder b) am ersten Tag einen Ausweichtermin festlegen
 * **Tag 4**: ~~20.05.2023~~ 27.05.2023, Beginn: 09:00 Uhr
-* **Tag 5**: Ein 2-Stunden-Slot, Zeit wird noch bestimmt.
+* **Tag 5**: 03.06.2023 von 9:00 bis 11:00 Uhr
 
 Jeweils grundsätzlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15:00 Uhr, in Summe also 16 Stunden.
 
