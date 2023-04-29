@@ -1,0 +1,44 @@
+\documentclass[12pt,ngerman]{moderncv}
+
+\usepackage{ifthen}
+\newboolean{bundeswehr}
+\setboolean{bundeswehr}{false}
+
+\moderncvtheme{classic}
+
+\firstname{Donald}
+\lastname{Duck}
+
+\address{12 somestreet}{3456 somecity}
+\mobile{+123 456 7890}
+\phone{+12 (3)456 78 90}
+\fax{+12 (3)456 78 90}
+\email{jdoe@design.org}
+%\photo[3cm]{Bilder/Katze}
+
+\begin{document}
+\maketitle
+
+\section{Arbeit}
+
+\ifthenelse{\boolean{bundeswehr}}
+{\cventry{1997--1198}{Wehrdienst}{Bundeswehr}
+{Cham}{}{}}{}
+
+\cventry{1984--1997}{Schule}{Gymnasium}
+{Berlin}{Note 0,9}
+{Leistungskurse Physik und Englisch}
+
+
+\section{Ausbildung}
+
+\cventry{1984--1997}{Schule}{Gymnasium}
+{Berlin}{Note 0,9}
+{Leistungskurse Physik und Englisch}
+
+\cventry{1984--1997}{Schule}{Gymnasium}
+{Berlin}{Note 0,9}
+{Leistungskurse Physik und Englisch}
+
+
+\end{document}
