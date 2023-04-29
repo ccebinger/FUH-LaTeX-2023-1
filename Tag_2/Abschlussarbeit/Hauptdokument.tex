@@ -1,10 +1,11 @@
 \documentclass[12pt,ngerman,parkskip=half]{scrreprt}
 
 \input{Preamble}
-\input{Titelseite}
 
+
+\includeonly{Kapitel02_Analyse}
 \begin{document}
-\maketitle
+\input{Titelseite}
 
 \tableofcontents
 
@@ -13,12 +14,26 @@
 \listoftables
 
 
-\input{Kapitel01_Einleitung.tex}
+
+\include{Kapitel01_Einleitung.tex}
 
 
-\input{Kapitel02_Analyse.tex}
+\include{Kapitel02_Analyse}
 
 
 
 
 \end{document}
+
+Schriftgrößen
+
+\tiny
+\scriptsize
+\footnotesize
+\small
+\normalsize
+\large
+\Large
+\LARGE
+\huge
+\Huge
