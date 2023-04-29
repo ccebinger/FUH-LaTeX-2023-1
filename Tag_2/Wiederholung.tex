@@ -1,6 +1,7 @@
-\documentclass[12pt,ngerman]{scrreprt}
+\documentclass[12pt,ngerman,parkskip=half]{scrreprt}
 \usepackage{babel} % Alternative: polyglossia
 \usepackage{blindtext}
+\usepackage{graphicx}
 
 \title{Mein Wiederholungsdokument}
 \author{Uwe Ziegenhagen}
@@ -10,6 +11,8 @@
 
 \tableofcontents
 
+\listoffigures
+
 \chapter{Einleitung}
 
 \section{Literatur}
@@ -18,10 +21,29 @@
 
 \subsubsection{Europa}
 
+\blindtext[3]
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Bilder/Katze}
+\caption{Melli - der kleine Teufel}\label{fig:Katze}
+\end{center}
+\end{figure}
+
+\blindtext[3]
+
 \blindtext
 
+\chapter[Kernanalyse der eurozentristischen Kunstpolitik]{Kernanalyse der eurozentristischen Kunstpolitik im Europa des 19. Jahrhunderts im Vergleich zwischen Eisenhower und Stalin}
 
+\begin{table}
+\begin{tabular}{lrcp{6cm}}
+Spalte 1 & Spalte 2 & Spalte 3 & Spalte 4 \\
+52435 & 543253 & 534 3244 & Hallo Welt, ich bin ein Text \\
+55 & 553 & 533244 & Hallo Welt, ich bin ein Text im Dokument\\
+\end{tabular}
 
+\end{table}
 
 
 
