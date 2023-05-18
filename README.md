@@ -68,19 +68,19 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf und Tempo der Teiln
 * LaTeX automatisieren mit ``Arara``
 * Schneller TeX mit Autohotkey & Co
 * Briefe setzen mit ``scrlttr2``
-* Quellcode-Listings einfügen mit dem ``Listings`` Paket
 * Mehr zu Mathematiksatz (mit ``amsmath``)
 
 
 ### Tag 3 - Bibliografien und Präsentationen
 
 * Zusammenfassung vom 2. Termin, Wiederholung
+* Quellcode-Listings einfügen mit dem ``Listings`` Paket
 * Einfache Bibliografien -- die ``thebibliography`` Umgebung
 * Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 * Komplexe Bibliografien mit ``biblatex``, ``biber`` und ``jabref``
 * ``nicefrac`` und ``nicematrix``
 * Einheitensatz mit ``siunitx``
-* Editoren: ``TeXworks`` und ``Visual Studio Code``
+* Editoren: ``TeXworks`` versus ``Visual Studio Code``
 * Grafiken erstellen mit LaTeX-Paketen, Kurzeinführung ``TikZ``
 * Fonts für ``pdflatex``, der LaTeX Font Katalog (https://tug.org/FontCatalogue/)
 * Liste wichtiger Pakete: https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
