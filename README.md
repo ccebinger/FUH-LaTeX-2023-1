@@ -34,11 +34,11 @@ Jeweils grundsätzlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15:00 Uhr, 
 ## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows, MacOS oder Linux
-* TeX Live 2023 herunterladen und installieren von tug.org/texlive. Eine Anleitung (für TeX Live 2022, es hat sich aber nichts geändert) habe ich 
-  unter https://www.youtube.com/watch?v=k9KhuZz7k-Q veröffentlicht.
-* Wenn ihr unter Linux arbeitet: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Das TeX Live in den Distributionen ist oft nicht aktuell. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
-* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten einfachen Editor, den ich gern benutze. TeX Studio und Visual Studio Code (mit der ``LaTeX Workshop`` Erweiterung von James Yu) kann ich ebenfalls sehr empfehlen.
-* Grundkenntnisse von Git bzw. Github sind nicht verkehrt, da alle Dateien im Github liegen.
+* TeX Live 2023 herunterladen und installieren von tug.org/texlive. Eine Anleitung (für TeX Live 2022, es hat sich aber fast nichts geändert) habe ich unter https://www.youtube.com/watch?v=k9KhuZz7k-Q veröffentlicht.
+* Wenn ihr unter Linux arbeitet: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Das TeX Live in den Distributionen ist oft nicht aktuell. 
+* Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten und einfach zu bedienenden Editor, den ich gern benutze. TeX Studio und Visual Studio Code (mit der ``LaTeX Workshop`` Erweiterung von James Yu) kann ich ebenfalls sehr empfehlen.
+* Grundkenntnisse von Git bzw. Github sind nicht verkehrt, da alle meine Dateien im Github liegen.
 
 ## Kursinhalte
 
@@ -46,7 +46,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf und Tempo der Teiln
 
 ### Tag 1 - Grundlagen
 
-* Vorstellung der Beteiligten, wer bin ich und wer seid ihr, was sind eure Lernziele
+* Vorstellung der Beteiligten, wer bin ich und wer seid ihr, was sind eure Lernziele?
 * Historie von TeX und LaTeX
 * Check der Umgebungen bzw. Installationen mittels "Hallo \LaTeX" Dokument
 * Klassen, Pakete, Umgebungen und Befehle
@@ -74,9 +74,11 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf und Tempo der Teiln
 ### Tag 3 - Bibliografien und Präsentationen
 
 * Zusammenfassung vom 2. Termin, Wiederholung
+* Lebende Kolumnentitel in KOMAscript
 * Quellcode-Listings einfügen mit dem ``Listings`` Paket
 * Einfache Bibliografien -- die ``thebibliography`` Umgebung
-* Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
+* Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut. 
+  Alternativ kann man die entsprechenden Dateien auch mit dem Texteditor bearbeiten.
 * Komplexe Bibliografien mit ``biblatex``, ``biber`` und ``jabref``
 * ``nicefrac`` und ``nicematrix``
 * Einheitensatz mit ``siunitx``
