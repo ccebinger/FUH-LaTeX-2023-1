@@ -1,0 +1,20 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage{babel}
+\usepackage{blindtext}
+
+\begin{document}
+
+\blindtext
+
+Dies hier ist ein Blindtext zum Testen von Textausgaben. Wer diesen Text liest, ist selbst schuld. Der Text gibt lediglich den Grauwert der Schrift an. Ist das wirklich so? Ist es gleichgültig, ob ich schreibe: „Dies ist ein Blindtext“ oder „Huardest gefburn“? Kjift – mitnichten! Ein Blindtext bietet mir wichtige Informationen. An ihm messe ich die Lesbarkeit einer Schrift, ihre Anmutung, wie harmonisch die Figuren zueinander stehen und prüfe, wie breit oder schmal sie läuft. Ein Blindtext sollte möglichst viele verschiedene Buchstaben enthalten und in der Originalsprache gesetzt sein. Er muss keinen Sinn ergeben, sollte aber lesbar sein. Fremdsprachige Texte wie „Lorem ipsum“, siehe \cite{knuth}, dienen nicht dem eigentlichen Zweck, da sie eine falsche Anmutung vermitteln.
+
+\begin{thebibliography}{9}
+\bibitem{knuth} \textit{Donald Knuth}, \textbf{The \TeX Book}, Addison Wesley, 2nd edition, 1984
+\bibitem{ziegenhagen} Uwe Ziegenhagen, \textit{Sicherheitspolitik im 19 Jahrhundert}, Springer, 1977
+\end{thebibliography}
+
+
+\end{document}
