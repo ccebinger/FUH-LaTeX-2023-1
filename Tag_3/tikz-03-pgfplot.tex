@@ -1,0 +1,35 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage{babel}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{blindtext}
+
+\begin{document}
+
+\section*{Plotten von Funktionen}
+
+\blindtext
+
+\begin{center}
+\begin{tikzpicture}
+%\draw[step=1cm,ultra thin,blue] (0,0) grid (15,10);
+
+\begin{axis}[]
+\addplot [
+red, thick,
+domain=-5:5,
+samples=50,
+]
+{x^2};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\blindtext
+
+
+\end{document}
