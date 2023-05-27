@@ -7,18 +7,55 @@
 \usepackage{babel}
 \usepackage{blindtext}
 
-\usepackage[style=authortitle-icomp,backend=biber]{biblatex}
+\usepackage[style=nature ,backref=true,backend=biber]{biblatex}
 \usepackage[babel,german=quotes]{csquotes}
 
 \addbibresource{ErsteBibliothek.bib}	
 
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,                     % show bookmarks bar
+    unicode=false,                      % non - Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,                        % show Acrobat’s toolbar
+    pdfmenubar=true,                        % show Acrobat’s menu
+    pdffitwindow=false,                 % window fit to page when opened
+    pdfstartview={FitH},                    % fits the width of the page to the window
+    pdftitle={My title},                        % title
+    pdfauthor={Author},                 % author
+    pdfsubject={Subject},                   % subject of the document
+    pdfcreator={Creator},                   % creator of the document
+    pdfproducer={Producer},             % producer of the document
+    pdfkeywords={keyword1, key2, key3},   % list of keywords
+    pdfnewwindow=true,                  % links in new window
+    colorlinks=true,                        % false: boxed links; true: colored links
+    linkcolor=blue,                          % color of internal links
+    filecolor=cyan,                     % color of file links
+    citecolor=blue,                     % color of file links
+    urlcolor=magenta                        % color of external links
+}
 \begin{document}
 
 \blindtext
 
-Dies hier ist ein Blindtext zum Testen von Textausgaben, siehe \cite{Ziegenhagen2023}. Wer diesen Text liest, ist selbst schuld. Der Text gibt lediglich den Grauwert der Schrift an. Ist das wirklich so? Ist es gleichgültig, ob ich schreibe: „Dies ist ein Blindtext“ oder „Huardest gefburn“? Kjift – mitnichten! Ein \cite{Knuth1982} Blindtext bietet mir wichtige Informationen. An ihm messe ich die Lesbarkeit einer Schrift, ihre Anmutung, wie harmonisch die Figuren zueinander stehen und prüfe, wie breit oder schmal sie läuft. Ein Blindtext sollte möglichst viele verschiedene Buchstaben enthalten und in der Originalsprache gesetzt sein. Er muss keinen Sinn ergeben, sollte aber lesbar sein. Fremdsprachige Texte wie „Lorem ipsum“, siehe \cite{Knuth1982}, dienen nicht dem eigentlichen Zweck, da sie eine falsche Anmutung vermitteln.
+Dies hier ist ein Blindtext zum Testen von Textausgaben, siehe \cite{Ziegenhagen2023}. Wer diesen Text liest, ist selbst schuld. Der Text gibt lediglich den Grauwert der Schrift an. Ist das wirklich so? Ist es gleichgültig, ob ich schreibe: „Dies ist ein Blindtext“ oder „Huardest gefburn“? Kjift – mitnichten! Ein \cite{Knuth1982} Blindtext bietet mir wichtige Informationen. An ihm messe ich die Lesbarkeit einer Schrift, ihre Anmutung, wie harmonisch die Figuren zueinander stehen und prüfe, wie breit oder schmal sie läuft. Ein Blindtext sollte möglichst \footcite{Ziegenhagen2022} viele verschiedene Buchstaben enthalten und in der Originalsprache gesetzt sein. Er muss keinen Sinn ergeben, sollte aber lesbar sein. Fremdsprachige Texte wie „Lorem ipsum“, siehe \cite{Knuth1982}, dienen nicht dem eigentlichen Zweck, da sie eine falsche Anmutung vermitteln.
 
-\printbibliography
+\clearpage
+
+\parencite{Knuth1982}
+
+\clearpage
+
+Ein Blindtext sollte möglichst viele verschiedene Buchstaben\footnote{Ein Blindtext sollte möglichst viele verschiedene Buchstaben enthalten und in der Originalsprache gesetzt sein. Er muss keinen Sinn ergeben, sollte aber lesbar sein.} enthalten und in der Originalsprache gesetzt sein. Er muss keinen Sinn ergeben, sollte aber lesbar sein. \footcite{Knuth1982}
+
+\clearpage
+
+\citeauthor{Ziegenhagen2023} hat in seinem im Jahr \citeyear{Ziegenhagen2023} erschienenen Artikel \citetitle{Ziegenhagen2023} bewiesen, dass die Erde rund ist.
+
+\printbibliography[title={Artikel},type=article]
+
+\printbibliography[title={Bücher},type=book]
+
+\printbibliography[title={Internetreferenzen},type=online]
 
 
 \end{document}
