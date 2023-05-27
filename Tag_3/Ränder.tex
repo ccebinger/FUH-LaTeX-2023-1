@@ -1,0 +1,21 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[11pt,ngerman]{scrartcl}
+
+\usepackage[left=2cm, right=4cm,top=2cm,bottom=3cm]{geometry}
+
+\usepackage{babel}
+\usepackage{blindtext}
+\usepackage{graphicx}
+
+\begin{document}
+
+\blindtext[3]\footnote{Hallo, ich bin die Fußnote.}
+
+\blindtext[3]\footnote{\blindtext} \marginpar{Hallo, ich bin die Randnotiz im Rand.}
+
+\blindtext[3]
+
+\scalebox{3}{Hallo Fernuni}
+
+\end{document}
