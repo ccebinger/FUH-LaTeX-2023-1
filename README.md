@@ -74,7 +74,6 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf und Tempo der Teiln
 ### Tag 3 - Bibliografien und Präsentationen
 
 * Zusammenfassung vom 2. Termin, Wiederholung
-* Lebende Kolumnentitel in KOMAscript
 * Quellcode-Listings einfügen mit dem ``Listings`` Paket
 * Einfache Bibliografien -- die ``thebibliography`` Umgebung
 * Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut. 
@@ -82,20 +81,24 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf und Tempo der Teiln
 * Komplexe Bibliografien mit ``biblatex``, ``biber`` und ``jabref``
 * ``nicefrac`` und ``nicematrix``
 * Einheitensatz mit ``siunitx``
-* Editoren: ``TeXworks`` versus ``Visual Studio Code``
-* Grafiken erstellen mit LaTeX-Paketen, Kurzeinführung ``TikZ``
+
+* Grafiken erstellen mit LaTeX-Paketen, Kurze Einführung ``TikZ``
 * Fonts für ``pdflatex``, der LaTeX Font Katalog (https://tug.org/FontCatalogue/)
 * Liste wichtiger Pakete: https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
-* Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``), alternativ siehe das ``mdframed`` Paket
+* Von ``pdflatex`` zu ``lualatex``, Systemschriften nutzen
 
 
 ### Tag 4 - Erweiterungen
 
-* Grundlagen der Automatisierung von Textsatz mit Python (Ein Weg, Serienbriefe zu erzeugen...)
-* Von ``pdflatex`` zu ``lualatex``, Systemschriften nutzen
+* Grundlagen der Satzautomatisierung von Textsatz mit Python (Ein Weg, Serienbriefe zu erzeugen...)
+* Lebensläufe im Detail
+* Lebende Kolumnentitel in KOMAscript
 * Syntaxhighlighting mit pygments
-* TikZ - Grundlagen
-* Frage-und-Antwort-Teil
+* Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``), alternativ siehe das ``mdframed`` Paket
+* Editoren: ``TeXworks`` versus ``Visual Studio Code`` 
+* Großer Frage-und-Antwort-Teil: was fehlt euch noch, was wolltet ihr schon immer mal TeXen?
+* biblatex-apa
+* Logik-Symbole gemäß https://de.wikipedia.org/wiki/Formelsammlung_Logik
 
 ## Literaturempfehlungen
 
@@ -103,7 +106,7 @@ Empfohlen werden:
 
 * Alle Bücher von Herbert Voß (https://www.lehmanns.de/search/quick?PHPSESSID=mi28bh61dhv2nu8keg4hjnkunumgi5ah&mediatype_id=&q=herbert+vo%C3%9F), insbesondere die Einführung
 * Der LaTeX Begleiter in der 2. Auflage (ist auch nicht mehr brandaktuell, bietet aber einen guten Überblick über LaTeX). Ist auch beispielsweise über Medimops extrem günstig zu bekommen.
-* Die 3. Auflage vom Begleiter erscheint im Mai
+* Die 3. Auflage vom Begleiter erscheint im Mai 2023
 
 ## Weitere Links
 
