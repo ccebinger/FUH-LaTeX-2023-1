@@ -1,0 +1,32 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+\draw[step=1cm,ultra thin,gray] (0,0) grid (15,10);
+
+\node[draw] (a) at (3,1){A};
+\node[draw] (b) at (12,1){B};
+\node[draw] (c) at (7.5,8){C};
+\node[draw] (d) at (13,6){D};
+
+\node (e) at (10,4){};
+
+
+\draw[thick, blue] (a) -- node[below] {Wichtig} node[above] {unwichtig} (b);
+\draw[thick, blue] (b) -- (c);
+\draw[thick, blue] (c) -- node[left] {Wichtig} node[right] {unwichtig}(a);
+
+\draw[very thick, red, ->] (d) -- (e);
+
+
+\end{tikzpicture}
+
+
+
+
+\end{document}

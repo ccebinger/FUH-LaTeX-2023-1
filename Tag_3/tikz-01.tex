@@ -1,0 +1,34 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage{babel}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{blindtext}
+
+\begin{document}
+
+\blindtext
+
+\begin{tikzpicture}
+\draw[step=1cm,ultra thin,blue] (0,0) grid (15,10);
+\draw (1,1) -- (4,5);
+
+\draw[ultra thin, red] (3,2) -- (6,1);
+\draw[very thin, red] (3,2) -- (6,2.5);
+\draw[thin, red] (3,2) -- (6,3);
+\draw[semithick, red] (3,2) -- (6,4);
+\draw[thick, red] (3,2) -- (6,5);
+\draw[ultra thick, red] (3,2) -- (6,6);
+\draw[line width=0.125cm, green] (3,2) -- (6,7);
+
+\draw [thick, densely dashed] (8,2) -- (12,5) -- (14,1) -- (8,2);
+\draw [thick,dotted] (1,6) -- (4,6) -- (2,9) -- cycle;
+
+\end{tikzpicture}
+
+\blindtext
+
+
+\end{document}
