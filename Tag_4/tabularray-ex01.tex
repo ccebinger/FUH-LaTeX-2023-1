@@ -1,0 +1,53 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage{tabularray}
+\usepackage{xcolor}
+\usepackage{url}
+
+\begin{document}
+
+
+% https://ctan.net/macros/latex/contrib/tabularray/tabularray.pdf
+\begin{tblr}{
+colspec = {rX}, colsep = 8mm, hlines = {2pt, white},
+row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {6em,azure2,fg=white,font=\LARGE\bfseries\sffamily},
+row{2-Z} = {3em,font=\Large},
+}
+Tabularray & Typeset Tabulars and Arrays with \LaTeX3 \\
+Author & Jianrui Lyu (tolvjr@163.com) \\
+Version & \today  \\
+Code & \url{https://github.com/lvjr/tabularray} \\
+Code & \url{https://bitbucket.org/lvjr/tabularray} \\
+Support & \url{https://github.com/lvjr/tabularray/discussions} \\
+Support & \url{https://topanswers.xyz/tex} \\
+Issue & \url{https://github.com/lvjr/tabularray/issues} \\
+\end{tblr}
+
+\clearpage
+
+\begin{tabular}{lccr}
+\hline
+Alpha & Beta & Gamma & Delta \\
+\hline
+Epsilon & Zeta & Eta & Theta \\
+\hline
+Iota & Kappa & Lambda & Mu \\
+\hline
+\end{tabular}\vspace*{3em}
+
+\begin{tblr}{lccr}
+\hline
+Alpha & Beta & Gamma & Delta \\
+\hline
+Epsilon & Zeta & Eta & Theta \\
+\hline
+Iota & Kappa & Lambda & Mu \\
+\hline
+\end{tblr}
+
+
+
+\end{document}
