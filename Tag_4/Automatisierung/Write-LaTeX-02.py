@@ -25,7 +25,7 @@ latex_jinja_env = jinja2.Environment(
 # Laden des Templates aus einer Datei
 template = latex_jinja_env.get_template('Template.tex')
 
-dokument = template.render(Name='Donald Duck')
+dokument = template.render(Name='Donald Hiernymus Duck')
 
 with codecs.open('Ausgabe.tex', "w","utf-8") as letter:
         letter.write(dokument);

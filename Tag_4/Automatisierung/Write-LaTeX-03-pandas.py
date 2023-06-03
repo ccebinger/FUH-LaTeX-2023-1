@@ -29,8 +29,6 @@ template = latex_jinja_env.get_template('Template-pandas.tex')
 
 df = pd.read_excel('Anschriften.xlsx')
 
-
-
 dokument = template.render(data=df)
 
 with codecs.open('Ausgabe-pandas.tex', "w","utf-8") as letter:

@@ -5,15 +5,10 @@
 
 \begin{document}
 
-
+\begin{tabular}{lll}
 	\BLOCK{ for _,row in data.iterrows()}
-
-    \VAR{row['Anrede'] }
-    \VAR{row['Name'] }
-    \VAR{row['Straße'] }
-
-    
+    \VAR{row['Anrede'] } & \VAR{row['Name'] } &\VAR{row['Straße'] } \\
 	\BLOCK{ endfor }
-
+\end{tabular}
 
 \end{document}
