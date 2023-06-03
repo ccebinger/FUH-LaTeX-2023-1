@@ -20,17 +20,15 @@
 
 \begin{document}
 
-
 \begin{tcolorbox}
 Hallo Welt!
 \end{tcolorbox}
-
 
 \begin{tcolorbox}
 \blindtext
 \end{tcolorbox}
 
-\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=My nice heading]
+\begin{tcolorbox}[colback=green!5!white,colframe=red!75!black,title=My nice heading]
 This is another \textbf{tcolorbox}.
 \tcblower
 Here, you see the lower part of the box.
@@ -38,10 +36,8 @@ Here, you see the lower part of the box.
 
 \begin{mytheo}{This is my title}{theoexample}
 This is the text of the theorem. The counter is automatically assigned and,
-in this example, prefixed with the section number. This theorem is numbered with
-\ref{th:theoexample}, it is given on page~\pageref{th:theoexample}.
+in this example, prefixed with the section number. This theorem is numbered with \ref{th:theoexample}, it is given on page~\pageref{th:theoexample}.
 \end{mytheo}
-
 
 \begin{equation}
 \tcbset{fonttitle=\footnotesize}
@@ -50,7 +46,6 @@ in this example, prefixed with the section number. This theorem is numbered with
 \tcboxmath[colback=blue!25!white,colframe=red,title=Implication]%
 { a = 4 ~\vee~ a=-4. }
 \end{equation}
-
 
 \newtcbox{\otherbox}[1][]{nobeforeafter,math upper,tcbox raise base,
 enhanced,frame hidden,boxrule=0pt,interior style={top color=green!10!white,
@@ -63,6 +58,8 @@ E&=mc^2 + \int_a^b x\, dx
 \begin{equation}
 \tcbhighmath{E} = \otherbox{mc^2}
 \end{equation}
+
+
 
 
 \newtcolorbox{mybox}[2][]{colback=red!5!white,
@@ -100,8 +97,5 @@ borderline={0.2mm}{-1mm}{green}]
 GO
 \end{tcolorbox}
 
-
-
-
-
 \end{document}
+
